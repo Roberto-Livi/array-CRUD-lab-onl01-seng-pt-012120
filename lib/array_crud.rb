@@ -18,18 +18,15 @@ countdown_array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  countdown_array = [5, 4, 3, 2]
-countdown_array.pop()
+  array.pop()
 end
 
 def remove_element_from_start_of_array(array)
-  countdown_array = [5, 4, 3, 2]
-countdown_array.shift
+  array.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
-  countdown_array = [5, 4, 3, 2]
-countdown_array.unshift(element)
+  array.index()
 end
 
 def retrieve_first_element_from_array(array)
