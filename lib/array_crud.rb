@@ -13,7 +13,8 @@ countdown_array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  countdown_array = [5, 4, 3, 2]
+countdown_array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
