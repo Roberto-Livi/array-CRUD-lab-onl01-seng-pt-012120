@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-countdown_array = [5, 4, 3, 2]
-countdown_array.push(1)
+countdown_array = [5, 4, 3, 2, element]
+
 end
 
 def add_element_to_start_of_array(array, element)
