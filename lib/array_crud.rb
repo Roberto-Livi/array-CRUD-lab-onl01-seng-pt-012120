@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
 countdown_array = [5, 4, 3, 2]
-countdown_array.unshift
+countdown_array << 1
 end
 
 def add_element_to_start_of_array(array, element)
